@@ -19,7 +19,7 @@ Because a clean run is never proof of conformance (PASTI-CORE-007), the stronges
 ## Install
 
 ```sh
-cargo install --git https://github.com/rifqi2320/pasti-lint
+cargo install --git https://github.com/rifqi2320/pasti
 ```
 
 ## Usage

@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 description = "Experimental linter for PASTI (Panduan Standardisasi Teks dan Istilah), a controlled technical Indonesian draft specification"
 readme = "README.md"
-repository = "https://github.com/rifqi2320/pasti-lint"
+repository = "https://github.com/rifqi2320/pasti"
 keywords = ["linter", "indonesian", "controlled-language", "technical-writing"]
 categories = ["command-line-utilities", "text-processing"]
 
