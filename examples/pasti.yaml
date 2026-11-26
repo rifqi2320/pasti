@@ -1,0 +1,19 @@
+# Contoh konfigurasi efektif (Dok. 08 §5). Domain pilot belum dipilih.
+config_version: 1
+spec_version: 0.1.0-draft.1
+profile_id: documentation
+profile_version: 0.1.0-draft.1
+default_mode: DESC
+length_review:
+  PROC: 20
+  WARN: 20
+  DESC: 25
+  REQ: 25
+  UI: null
+gate:
+  fail_on: error
+  mandatory_checks_complete: false
+fix:
+  automatic: false
+glossaries:
+  - glossary-seed.json

@@ -1,0 +1,575 @@
+{
+  "glossary_id": "pasti-seed",
+  "glossary_version": "0.1.0-draft.1",
+  "entries": [
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.CORE.EXAMINE",
+      "preferred": "periksa",
+      "status": "proposed",
+      "layer": "core",
+      "domain_id": "general",
+      "sense": "Amati objek terhadap kondisi tertentu.",
+      "forms": [
+        {
+          "text": "periksa",
+          "pos": "verb",
+          "role": "imperative"
+        },
+        {
+          "text": "memeriksa",
+          "pos": "verb",
+          "role": "active"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Tidak menjamin hasil baik."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.CORE.ENSURE",
+      "preferred": "pastikan",
+      "status": "proposed",
+      "layer": "core",
+      "domain_id": "general",
+      "sense": "Konfirmasikan bahwa keadaan yang disyaratkan telah terpenuhi.",
+      "forms": [
+        {
+          "text": "pastikan",
+          "pos": "verb",
+          "role": "imperative"
+        },
+        {
+          "text": "memastikan",
+          "pos": "verb",
+          "role": "active"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Tidak otomatis memerintahkan perbaikan atau menggantikan periksa."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.CORE.USE",
+      "preferred": "gunakan",
+      "status": "proposed",
+      "layer": "core",
+      "domain_id": "general",
+      "sense": "Pakai objek untuk tujuan yang disebutkan.",
+      "forms": [
+        {
+          "text": "gunakan",
+          "pos": "verb",
+          "role": "imperative"
+        },
+        {
+          "text": "menggunakan",
+          "pos": "verb",
+          "role": "active"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Objek harus dapat dikenali."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.CORE.START",
+      "preferred": "mulai",
+      "status": "proposed",
+      "layer": "core",
+      "domain_id": "general",
+      "sense": "Awali kegiatan yang disebutkan.",
+      "forms": [
+        {
+          "text": "mulai",
+          "pos": "verb",
+          "role": "imperative"
+        },
+        {
+          "text": "memulai",
+          "pos": "verb",
+          "role": "active"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Bedakan dari menyalakan daya."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.CORE.STOP",
+      "preferred": "hentikan",
+      "status": "proposed",
+      "layer": "core",
+      "domain_id": "general",
+      "sense": "Buat kegiatan atau objek berhenti bekerja.",
+      "forms": [
+        {
+          "text": "hentikan",
+          "pos": "verb",
+          "role": "imperative"
+        },
+        {
+          "text": "menghentikan",
+          "pos": "verb",
+          "role": "active"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Bentuk transitif memerlukan objek."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.CORE.SAVE",
+      "preferred": "simpan",
+      "status": "proposed",
+      "layer": "core",
+      "domain_id": "general",
+      "sense": "Pertahankan data atau benda pada tempat tertentu.",
+      "forms": [
+        {
+          "text": "simpan",
+          "pos": "verb",
+          "role": "imperative"
+        },
+        {
+          "text": "menyimpan",
+          "pos": "verb",
+          "role": "active"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Jangan anggap sama dengan pencadangan."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.CORE.SEND",
+      "preferred": "kirim",
+      "status": "proposed",
+      "layer": "core",
+      "domain_id": "general",
+      "sense": "Pindahkan pesan atau objek kepada tujuan.",
+      "forms": [
+        {
+          "text": "kirim",
+          "pos": "verb",
+          "role": "imperative"
+        },
+        {
+          "text": "mengirim",
+          "pos": "verb",
+          "role": "active"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Tidak menyatakan penerimaan berhasil."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.CORE.RECEIVE",
+      "preferred": "terima",
+      "status": "proposed",
+      "layer": "core",
+      "domain_id": "general",
+      "sense": "Dapatkan objek dari sumber.",
+      "forms": [
+        {
+          "text": "terima",
+          "pos": "verb",
+          "role": "imperative"
+        },
+        {
+          "text": "menerima",
+          "pos": "verb",
+          "role": "active"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Bedakan menerima data dan menyetujuinya."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.CORE.REMOVE",
+      "preferred": "lepas",
+      "status": "proposed",
+      "layer": "core",
+      "domain_id": "general",
+      "sense": "Pisahkan bagian dari sambungannya.",
+      "forms": [
+        {
+          "text": "lepas",
+          "pos": "verb",
+          "role": "imperative"
+        },
+        {
+          "text": "melepas",
+          "pos": "verb",
+          "role": "active"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Tidak berarti menghapus data."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.CORE.DELETE",
+      "preferred": "hapus",
+      "status": "proposed",
+      "layer": "core",
+      "domain_id": "general",
+      "sense": "Hilangkan data dari lokasi yang disebutkan.",
+      "forms": [
+        {
+          "text": "hapus",
+          "pos": "verb",
+          "role": "imperative"
+        },
+        {
+          "text": "menghapus",
+          "pos": "verb",
+          "role": "active"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Tidak otomatis berarti pemusnahan aman."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.CORE.COMPLETE",
+      "preferred": "selesai",
+      "status": "proposed",
+      "layer": "core",
+      "domain_id": "general",
+      "sense": "Kegiatan telah mencapai titik akhir yang ditetapkan.",
+      "forms": [
+        {
+          "text": "selesai",
+          "pos": "adjective",
+          "role": "base"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Tidak otomatis berarti berhasil."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.CORE.AVAILABLE",
+      "preferred": "tersedia",
+      "status": "proposed",
+      "layer": "core",
+      "domain_id": "general",
+      "sense": "Objek ada untuk penggunaan yang dinyatakan.",
+      "forms": [
+        {
+          "text": "tersedia",
+          "pos": "adjective",
+          "role": "base"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Bedakan dari dapat diakses."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.CORE.CONDITION",
+      "preferred": "jika",
+      "status": "proposed",
+      "layer": "core",
+      "domain_id": "general",
+      "sense": "Nyatakan syarat berlakunya pernyataan berikut.",
+      "forms": [
+        {
+          "text": "jika",
+          "pos": "connector",
+          "role": "base"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Cakupan perlu jelas saat ada beberapa tindakan."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.CORE.SEQUENCE",
+      "preferred": "setelah",
+      "status": "proposed",
+      "layer": "core",
+      "domain_id": "general",
+      "sense": "Nyatakan urutan terhadap kejadian acuan.",
+      "forms": [
+        {
+          "text": "setelah",
+          "pos": "connector",
+          "role": "base"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Jangan hilangkan acuan penyelesaian."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.SOFTWARE.AUTHENTICATION",
+      "preferred": "autentikasi",
+      "status": "proposed",
+      "layer": "domain",
+      "domain_id": "software",
+      "sense": "Pemeriksaan identitas menurut mekanisme sistem.",
+      "forms": [
+        {
+          "text": "autentikasi",
+          "pos": "noun",
+          "role": "base"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Berbeda dari pemberian izin."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.SOFTWARE.AUTHORIZATION",
+      "preferred": "otorisasi",
+      "status": "proposed",
+      "layer": "domain",
+      "domain_id": "software",
+      "sense": "Penetapan izin melakukan tindakan tertentu.",
+      "forms": [
+        {
+          "text": "otorisasi",
+          "pos": "noun",
+          "role": "base"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Tidak membuktikan identitas sendiri."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.SOFTWARE.BACKUP",
+      "preferred": "cadangan",
+      "status": "proposed",
+      "layer": "domain",
+      "domain_id": "software",
+      "sense": "Salinan untuk kebutuhan pemulihan yang ditetapkan.",
+      "forms": [
+        {
+          "text": "cadangan",
+          "pos": "noun",
+          "role": "base"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Salinan belum tentu telah diuji pulih."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.SOFTWARE.TIMEOUT",
+      "preferred": "batas waktu",
+      "status": "proposed",
+      "layer": "domain",
+      "domain_id": "software",
+      "sense": "Batas durasi menunggu suatu kejadian.",
+      "forms": [
+        {
+          "text": "batas waktu",
+          "pos": "noun",
+          "role": "base"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Sebutkan kejadian dan titik mulai."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.QUALITY.VERIFY",
+      "preferred": "verifikasi",
+      "status": "proposed",
+      "layer": "domain",
+      "domain_id": "quality",
+      "sense": "Nilai kesesuaian terhadap kriteria yang ditetapkan.",
+      "forms": [
+        {
+          "text": "verifikasi",
+          "pos": "verb",
+          "role": "imperative"
+        },
+        {
+          "text": "memverifikasi",
+          "pos": "verb",
+          "role": "active"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Sebutkan kriteria proyek."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.QUALITY.VALIDATE",
+      "preferred": "validasi",
+      "status": "proposed",
+      "layer": "domain",
+      "domain_id": "quality",
+      "sense": "Nilai kecocokan terhadap kebutuhan penggunaan.",
+      "forms": [
+        {
+          "text": "validasi",
+          "pos": "verb",
+          "role": "imperative"
+        },
+        {
+          "text": "memvalidasi",
+          "pos": "verb",
+          "role": "active"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Tidak menggantikan semua jenis pemeriksaan."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    },
+    {
+      "spec_version": "0.1.0-draft.1",
+      "concept_id": "PASTI.EQUIPMENT.POWER_OFF",
+      "preferred": "matikan",
+      "status": "proposed",
+      "layer": "domain",
+      "domain_id": "equipment",
+      "sense": "Pindahkan perangkat ke keadaan mati/OFF menurut definisi perangkat.",
+      "forms": [
+        {
+          "text": "matikan",
+          "pos": "verb",
+          "role": "imperative"
+        },
+        {
+          "text": "mematikan",
+          "pos": "verb",
+          "role": "active"
+        }
+      ],
+      "frames": [],
+      "constraints": [
+        "Tidak menyiratkan isolasi energi lengkap."
+      ],
+      "provenance": {
+        "author": "Draf PASTI",
+        "revision": "0.1.0-draft.1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Jika suhu_pompa_utama melebihi 80 °C, matikan pompa_utama.

@@ -1,0 +1,11 @@
+# Rekaman keputusan manusia. Alat tidak pernah menulis berkas ini.
+# scope_hash diambil dari bagian setelah ':' pada scope_id diagnostik.
+records:
+  - record_id: PASTI-EXAMPLE-REV-001
+    kind: review
+    state: proposed          # belum berlaku sampai accepted dengan reviewed_by
+    rule_id: PASTI-TOK-005
+    scope_hash: 0000000000000000
+    decision: satisfied
+    reason: Pemecahan kalimat akan memisahkan syarat dari tindakan.
+    reviewed_by: []

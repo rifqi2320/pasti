@@ -1,0 +1,1 @@
+Katup bocor. Jika pengujian lulus, simpan hasil. Kirim laporan. Buka katup jika suhu 80 °C atau lebih.

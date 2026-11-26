@@ -1,0 +1,42 @@
+{
+  "registry_version": "demo-0.1.0-draft.1",
+  "entities": [
+    {
+      "id": "pompa_utama",
+      "label": "pompa utama",
+      "concept_id": "demo.pump.main",
+      "entity_type": "pump",
+      "capabilities": ["power"]
+    },
+    {
+      "id": "katup_masuk",
+      "label": "katup masuk",
+      "concept_id": "demo.valve.inlet",
+      "entity_type": "valve",
+      "capabilities": ["position"]
+    }
+  ],
+  "measurements": [
+    {
+      "id": "suhu_pompa_utama",
+      "owner": "pompa_utama",
+      "quantity_kind": "temperature",
+      "dimension": "temperature",
+      "unit": "°C"
+    },
+    {
+      "id": "tegangan_pompa_utama",
+      "owner": "pompa_utama",
+      "quantity_kind": "voltage",
+      "dimension": "voltage",
+      "unit": "V"
+    },
+    {
+      "id": "tekanan_katup_masuk",
+      "owner": "katup_masuk",
+      "quantity_kind": "pressure_gauge",
+      "dimension": "pressure",
+      "unit": "kPa"
+    }
+  ]
+}
