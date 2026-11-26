@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "pasti"
-description = "Experimental linter for PASTI (Panduan Standardisasi Teks dan Istilah), a draft controlled technical Indonesian spec"
+description = "Linter buat PASTI (Panduan Standardisasi Teks dan Istilah), spec bahasa Indonesia teknis terkendali"
 readme = "README.md"
 requires-python = ">=3.8"
 keywords = ["linter", "indonesian", "controlled-language", "technical-writing"]
