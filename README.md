@@ -1,4 +1,4 @@
-# pasti-lint
+![PASTI](assets/banner.png)
 
 Experimental linter for **PASTI** (Panduan Standardisasi Teks dan Istilah), a draft specification for controlled technical Indonesian (*Bahasa Indonesia Teknis Terkendali*). It implements spec `0.1.0-draft.1`.
 
