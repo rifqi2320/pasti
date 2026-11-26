@@ -1,4 +1,4 @@
-![PASTI](assets/banner.png)
+![PASTI](https://raw.githubusercontent.com/rifqi2320/pasti/main/assets/banner.png)
 
 Experimental linter for **PASTI** (Panduan Standardisasi Teks dan Istilah), a draft specification for controlled technical Indonesian (*Bahasa Indonesia Teknis Terkendali*). It implements spec `0.1.0-draft.1`.
 
@@ -19,8 +19,12 @@ Because a clean run is never proof of conformance (PASTI-CORE-007), the stronges
 ## Install
 
 ```sh
+uv tool install pasti        # or run once: uvx pasti lint manual.md
+pip install pasti            # same wheel, prebuilt binary, no Rust needed
 cargo install --git https://github.com/rifqi2320/pasti
 ```
+
+Release: push a `v*` tag; `.github/workflows/release.yml` builds wheels (Linux glibc/musl x86_64/aarch64, macOS, Windows) with maturin and publishes to PyPI via trusted publishing.
 
 ## Usage
 

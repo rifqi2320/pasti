@@ -1,0 +1,27 @@
+[build-system]
+requires = ["maturin>=1.9,<2"]
+build-backend = "maturin"
+
+[project]
+name = "pasti"
+description = "Experimental linter for PASTI (Panduan Standardisasi Teks dan Istilah), a draft controlled technical Indonesian spec"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["linter", "indonesian", "controlled-language", "technical-writing"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Natural Language :: Indonesian",
+    "Programming Language :: Rust",
+    "Topic :: Text Processing :: Linguistic",
+]
+dynamic = ["version"]
+
+[project.urls]
+Repository = "https://github.com/rifqi2320/pasti"
+
+[tool.maturin]
+# Ships the Rust `pasti` binary as a console command; no Python module.
+bindings = "bin"
+strip = true
